@@ -1,6 +1,9 @@
 # 알고리즘 스터디 ASP
 
-멤버 : 이동건 김성현 박재선
+멤버
+- [이동건](https://github.com/tnpdlzi)
+- [김성현](https://github.com/waverDeep)
+- [박재선](https://github.com/zzangjames)
 
 시작일 : 1월 11일 화요일
 
