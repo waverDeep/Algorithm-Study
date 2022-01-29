@@ -3,7 +3,7 @@
 멤버
 - [이동건](https://github.com/tnpdlzi)
 - [김성현](https://github.com/waverDeep)
-- [박재선](https://github.com/zzangjames)
+- [박재선](https://github.com/ppakjae)
 
 시작일 : 1월 11일 화요일
 
