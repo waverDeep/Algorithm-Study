@@ -25,9 +25,5 @@ def solution(s):
 
     return answer
 
-
-    return answer
-
-
 s = "aabbaccc"
 print(solution(s))
