@@ -1,13 +1,15 @@
-def find_parent(x):
-    if x == parent[x]:
-        return x
-    parent[x] = find_parent(parent[x])
+def find_parent(parent, x):
+    if parent[x] != x:
+        parent[x] = find_parent(parent, parent[x])
     return parent[x]
 
-
-def union_parent(x, y):
-    x, y = find_parent(x), find_parent(y)
-    parent[x] = y
+def union_parent(parent,a,b):
+    a = find_parent(parent, a)
+    b = find_parent(parent, b)
+    if a<b:
+        parent[b] = a
+    else:
+        parent[a] = b
 
 
 n = int(input())
