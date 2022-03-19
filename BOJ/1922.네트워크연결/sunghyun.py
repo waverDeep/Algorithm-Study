@@ -21,9 +21,9 @@ answer = 0
 for a in arr:
     start, end, weight = a
     # cycle 확인
-    if find_parent(start) == find_parent(end):
+    if find_parent(parent, start) == find_parent(parent, end):
         continue
     else:
         answer += weight
-        union_parent(start, end)
+        union_parent(parent, start, end)
 print(answer)
